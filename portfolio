@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Preet Chauhan</h1>
+        <p class="tagline">Web Developer | Designer</p>
+    </header>
+    <section id="about">
+       <h2>About Me</h2> 
+       <img src="profile.jpg" alt="Photo" class="profile-pic">
+       <p>Hello! I’m an aspiring web developer with a strong passion for building websites and learning new technologies. I recently started my journey in web development and have been focused on mastering the fundamentals of HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Netflix Clone</h3>
+        <img src="project1.png" alt="">
+        <p>Netflix Clone is a front-end web application inspired by the popular streaming platform. It replicates the visual layout and user interface of Netflix, allowing users to browse through a selection of movies and TV shows.</p>
+ </div>
+ <div class="project">
+    <h3>Amazon Clone</h3>
+    <img src="project2.png" alt="">
+    <p>Amazon Clone is a front-end web project that recreates the layout and core features of the Amazon shopping website. The goal of this project was to practice building complex UI structures using HTML, CSS, and JavaScript, and understand how modern e-commerce websites function</p>
+ </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf">Download My Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>preetchauhan842@gmail.com</p>
+    <p>Phone:9456943428</p>
+  </section>
+
+  <footer>
+    <p>&copy;2025 Preet Chauhan.All rights Reserved</p>
+  </footer>
+</body>
+</html>
